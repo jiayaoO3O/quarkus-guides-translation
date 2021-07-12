@@ -2,9 +2,9 @@
 
 本项目的创立初衷是因为看到quarkus这个框架在国外非常的火热, 本人也十分看好这个新赛道, 但是一直没有官方的中文社区出来, 很多想要试试quarkus框架的小伙伴看到官方指南全是英文望而却步, 所以诞生了想要做一个quarkus-guides的翻译项目, 把官方指南翻译一下.
 
-本人不是大佬, 只是一个喜欢C#的java程序员而已, 如果翻译有错欢迎提issue或者直接开pr, 大家群策群力, 看看能不能在国内把quarkus的生态搞起来一点点.🤞
+本人只是一个喜欢C#的java程序员, 如果翻译有错欢迎提issue或者直接开pr, 大家群策群力, 看看能不能在国内把quarkus的生态搞起来一点点.🤞
 
-文章会尽量按照官网的分类方式进行归类.
+所有的文章原文都可以在官方的[quarkus-guides](https://github.com/quarkusio/quarkusio.github.io/tree/develop/_guides)里面找到.
 
 ☕: 原文链接
 
