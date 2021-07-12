@@ -80,7 +80,7 @@ mvn io.quarkus:quarkus-maven-plugin:2.0.1.Final:create "-DprojectGroupId=org.acm
 项目会生成在`./getting-started`, 里面包含了如下内容 :
 
 - 一个Maven架构的项目
-- 一个暴露在**/hello**上的**org.acme.getting.started.GreetingResource**接口
+- 一个暴露在`/hello` 上的 **org.acme.getting.started.GreetingResource**接口
 - 一个与接口相关的单元测试
 - 一个启动应用程序后可在http://localhost:8080 上访问的页面
 - src/main/docker中用于本地(本地打包模式后面的教程会讲到)和jvm模式的**Dockerfile**模板
