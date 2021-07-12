@@ -12,9 +12,9 @@
 
 |                             name                             |                             名称                             | 翻译进度 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
-| [Be Guided Through First Application](https://quarkus.io/guides/getting-started) |    [创建第一个程序](./Getting Started/getting-started.md)    |    ❌     |
-| [Getting Started with Reactive](https://quarkus.io/guides/getting-started-reactive) | [开始响应式编程](./Getting Started/getting-started-reactive.md) |    ❌     |
-| [Building Native Executable](https://quarkus.io/guides/building-native-image) | [编译本地可执行镜像](./Getting Started/building-native-image) |    ❌     |
-|    [Using Our Tooling](https://quarkus.io/guides/tooling)    |       [使用quarkus工具](./Getting Started/tooling.md)        |    ❌     |
-| [Quarkus Tools in Your Favorite IDE](https://quarkus.io/guides/ide-tooling) | [在你喜欢的IDE中使用qurrkus工具](./Getting Started/ide-tooling.md) |    ❌     |
+| [Be Guided Through First Application](https://quarkus.io/guides/getting-started) |[创建第一个程序](/GettingStarted/getting-started.md)    |    ❌     |
+| [Getting Started with Reactive](https://quarkus.io/guides/getting-started-reactive) | [开始响应式编程](/GettingStarted/getting-started-reactive.md) |    ❌     |
+| [Building Native Executable](https://quarkus.io/guides/building-native-image) | [编译本地可执行镜像](/GettingStarted/building-native-image) |    ❌     |
+|    [Using Our Tooling](https://quarkus.io/guides/tooling)    |       [使用quarkus工具](/GettingStarted/tooling.md)        |    ❌     |
+| [Quarkus Tools in Your Favorite IDE](https://quarkus.io/guides/ide-tooling) | [在你喜欢的IDE中使用qurrkus工具](/GettingStarted/ide-tooling.md) |    ❌     |
 
