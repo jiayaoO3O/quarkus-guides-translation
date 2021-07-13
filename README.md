@@ -34,6 +34,7 @@
 
 
 ### Core
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Configuring Your Application](https://quarkus.io/guides/config) | | ❌ |
@@ -54,6 +55,7 @@
 | [Writing Native Applications](https://quarkus.io/guides/writing-native-applications-tips) | | ❌ |
 
 ### Web           
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Writing REST JSON Services](https://quarkus.io/guides/rest-json) | | ❌ |
@@ -73,6 +75,7 @@
 | [Consuming GraphQL Services](https://quarkus.io/guides/smallrye-graphql-client) | | ❌ |
 
 ### Data     
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Configuring your datasources](https://quarkus.io/guides/datasource) | | ❌ |
@@ -100,6 +103,7 @@
 | [Using Software Transactional Memory](https://quarkus.io/guides/software-transactional-memory) | | ❌ |
 
 ### Messaging
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Using Apache Kafka](https://quarkus.io/guides/kafka) | | ❌ |
@@ -114,6 +118,7 @@
 | [Using JMS](https://quarkus.io/guides/jms) | | ❌ |
 
 ### Security
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Security Overview](https://quarkus.io/guides/security) | | ❌ |
@@ -135,17 +140,20 @@
 | [Credentials Provider](https://quarkus.io/guides/credentials-provider) | | ❌ |
 
 ### Business Automation
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Using Kogito to add business automation capabilities to an application](https://quarkus.io/guides/kogito) | | ❌ |
 | [Using AI to optimize a schedule with OptaPlanner](https://quarkus.io/guides/optaplanner) | | ❌ |
 
 ### Integration
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Apache Camel](https://quarkus.io/guides/camel) | | ❌ |
 
 ### Command Line Applications
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Command Mode Reference](https://quarkus.io/guides/command-mode-reference) | | ❌ |
@@ -153,6 +161,7 @@
 | [jbang Integration](https://quarkus.io/guides/sc<x>ripting) | | ❌ |
 
 ### Cloud
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Build Container Images](https://quarkus.io/guides/container-image) | | ❌ |
@@ -186,6 +195,7 @@
 | [Amazon SSM](https://quarkus.io/guides/amazon-ssm) | | ❌ |
 
 ### Observability
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Using Health Check](https://quarkus.io/guides/smallrye-health) | | ❌ |
@@ -198,6 +208,7 @@
 | [Centralized Log Management](https://quarkus.io/guides/centralized-log-management) | | ❌ |
 
 ### Serialization
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Writing REST JSON Services](https://quarkus.io/guides/rest-json) | | ❌ |
@@ -206,6 +217,7 @@
 | [Consuming gRPC Services](https://quarkus.io/guides/grpc-service-consumption) | | ❌ |
 
 ### Tooling
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Using the Quarkus CLI](https://quarkus.io/guides/cli-tooling) | | ❌ |
@@ -215,6 +227,7 @@
 | [Re-augment a Quarkus Application](https://quarkus.io/guides/reaugmentation) | | ❌ |
 
 ### Compatibility
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Using the Quarkus Extension for Spring DI API](https://quarkus.io/guides/spring-di) | | ❌ |
@@ -228,6 +241,7 @@
 | [Using the Quarkus Extension for Spring Cloud Config](https://quarkus.io/guides/spring-cloud-config-client) | | ❌ |
 
 ### Miscellaneous
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Scheduling Periodic Tasks](https://quarkus.io/guides/scheduler) | | ❌ |
@@ -243,6 +257,7 @@
 | [Measuring Performance](https://quarkus.io/guides/performance-measure) | | ❌ |
 
 ### Alternative Languages
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Using Kotlin](https://quarkus.io/guides/kotlin) | | ❌ |
@@ -250,6 +265,7 @@
 | [MongoDB with Panache and Kotlin](https://quarkus.io/guides/mongodb-panache-kotlin) | | ❌ |
 
 ### Writing Extensions
+
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | [Building My First Extension](https://quarkus.io/guides/building-my-first-extension) | | ❌ |
