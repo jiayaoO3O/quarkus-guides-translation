@@ -23,14 +23,25 @@
 ## 文章目录
 
 ### Getting Started
-1. [Be Guided Through First Application](https://quarkus.io/guides/getting-started)☕[创建第一个程序](/GettingStarted/getting-started.md)📝
-2. [Getting Started with Reactive](https://quarkus.io/guides/getting-started-reactive)☕[开始响应式编程](/GettingStarted/getting-started-reactive.md)❌
+1. [Be Guided Through First Application](https://quarkus.io/guides/getting-started)☕
 
-3. [Building Native Executables](https://quarkus.io/guides/building-native-image)☕[编译本地可执行镜像](/GettingStarted/building-native-image)❌
+   [创建第一个程序](/GettingStarted/getting-started.md)📝
 
-4. [Using our Tooling](https://quarkus.io/guides/tooling)☕[使用quarkus工具](/GettingStarted/tooling.md)❌
+2. [Getting Started with Reactive](https://quarkus.io/guides/getting-started-reactive)☕
 
-5. [Quarkus Tools in your favorite IDE](https://quarkus.io/guides/ide-tooling)☕[在你喜欢的IDE中使用qurrkus工具](/GettingStarted/ide-tooling.md)❌
+   [开始响应式编程](/GettingStarted/getting-started-reactive.md)❌
+
+3. [Building Native Executables](https://quarkus.io/guides/building-native-image)☕
+
+   [编译本地可执行镜像](/GettingStarted/building-native-image)❌
+
+4. [Using our Tooling](https://quarkus.io/guides/tooling)☕
+
+   [使用quarkus工具](/GettingStarted/tooling.md)❌
+
+5. [Quarkus Tools in your favorite IDE](https://quarkus.io/guides/ide-tooling)☕
+
+   [在你喜欢的IDE中使用qurrkus工具](/GettingStarted/ide-tooling.md)❌
 
 
 ### Core
