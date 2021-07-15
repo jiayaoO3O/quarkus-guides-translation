@@ -18,6 +18,7 @@
 
 ## 更新日志
 
+- 2021.07.15 : 翻译完成第一篇教程
 - 2021.07.12 : 创建项目
 
 ## 文章目录
@@ -26,7 +27,7 @@
 
 |                              ☕                               |                              👷‍♂️                              | ❌ 📝👏 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| [Be Guided Through First Application](https://quarkus.io/guides/getting-started) |     [创建第一个程序](/GettingStarted/getting-started.md)     |  📝   |
+| [Be Guided Through First Application](https://quarkus.io/guides/getting-started) |     [创建第一个程序](/GettingStarted/getting-started.md)     |  👏  |
 | [Getting Started with Reactive](https://quarkus.io/guides/getting-started-reactive) | [开始响应式编程](/GettingStarted/getting-started-reactive.md) |  ❌   |
 | [Building Native Executables](https://quarkus.io/guides/building-native-image) | [编译本地可执行镜像](/GettingStarted/building-native-image)  |  ❌   |
 |    [Using our Tooling](https://quarkus.io/guides/tooling)    |        [使用quarkus工具](/GettingStarted/tooling.md)         |  ❌   |
