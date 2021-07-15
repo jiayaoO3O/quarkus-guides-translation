@@ -316,12 +316,12 @@ import static org.hamcrest.CoreMatchers.is;
 @QuarkusTest
 public class GreetingResourceTest {
 
-    @Test    //1️⃣
+    @Test    // (1)
     public void testHelloEndpoint() {
         given()
           .when().get("/hello")
           .then()
-             .statusCode(200)    //2️⃣
+             .statusCode(200)    // (2)
              .body(is("hello"));
     }
 
@@ -339,9 +339,9 @@ public class GreetingResourceTest {
 }
 ```
 
-> 1️⃣ 通过使用QuarkusTest, 你指示JUnit在测试前启动应用程序. 
+> (1) 通过使用QuarkusTest, 你指示JUnit在测试前启动应用程序. 
 >
-> 2️⃣ 检查HTTP响应状态码和内容
+> (2) 检查HTTP响应状态码和内容
 
 这些测试使用[RestAssured](http://rest-assured.io/), 但也可以随意使用你最喜欢的库 (📢 : 这里说的RestAssured强烈建议上网查一下用法, 是一个非常好用的判断测试结果的类库, 尤其是对返回的json的解析).
 
