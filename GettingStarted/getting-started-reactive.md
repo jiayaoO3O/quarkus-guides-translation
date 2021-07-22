@@ -96,7 +96,7 @@ httpCall
     .onFailure().recoverWithItem("my fallback");
 ```
 
-你可能想知道Reactive Streams (https://www.reactive-streams.org/). Multi实现了**Reactive Streams Publisher**, 因此实现了Reactive Streams的**反压机制** (也可翻译成背压, 背压的意思是当消费者消费的速度更不上生产者生产速度时所采取的一种机制). Uni没有实现Publisher, 因为对Uni的订阅就足以表明你对结果感兴趣. 这又是考虑到了更简单、更顺畅的API的想法, 因为Reactive Streams的订阅/请求仪式更复杂. 
+你可能想知道Reactive Streams (https://www.reactive-streams.org/). Multi实现了**Reactive Streams Publisher**, 因此实现了Reactive Streams的**反压机制** (也可翻译成背压, 背压的意思是当消费者消费的速度跟不上生产者生产速度时所采取的一种机制). Uni没有实现Publisher, 因为对Uni的订阅就足以表明你对结果感兴趣. 这又是考虑到了更简单、更顺畅的API的想法, 因为Reactive Streams的订阅/请求仪式更复杂. 
 
 拥抱Quarkus的响应式和命令式统一的支柱吧, Uni和Multi都提供了通往命令式结构 (📢 : 命令式结构即传统的java代码形式)的桥梁. 例如, 你可以将Multi转化为Iterable或者*await* Uni产出的item. 
 
@@ -145,7 +145,7 @@ Uni<JsonObject> uni =
 
 有几种方法可以用Quarkus实现响应式应用. 在本教程中, 我们将使用`RESTEasy Reactive`, 这是一个受益于Quarkus响应式引擎的RESTEasy实现. 默认情况下, 它在I/O线程上调用HTTP端点. 
 
-> 虽然可以使用传统的RESTEasy和nutiny搭配, 但你需要添加`quarkus-resteasy-mutiny`扩展, 而且该方法仍然会在一个**工作线程**上被调用. 因此, 虽然这种搭配照样可以进行响应式编程, 但缺需要工作线程, 这就违背了响应式的目的. 
+> 虽然可以使用传统的RESTEasy和Mutiny搭配, 但你需要添加`quarkus-resteasy-mutiny`扩展, 而且该方法仍然会在一个**工作线程**上被调用. 因此, 虽然这种搭配照样可以进行响应式编程, 但却还是需要工作线程, 这就违背了响应式的目的. 
 
 对于Linux和MacOS用户,
 
@@ -277,7 +277,7 @@ public class ReactiveGreetingResource {
 }
 ```
 
-`ReactiveGreetingService`类包含一个产生Uni的简单方法. 虽然在这个例子中, 产生的item被立即返回, 但你可以想象到的是任何异步API的返回值都是一个Uni. 我们将在本教程的后面介绍这一点. 
+`ReactiveGreetingService`类包含一个产生Uni的简单方法. 虽然在这个例子中, 产生的item被立即返回, 但你可以想象到的是任何异步API的返回值都是一个Uni或者Multi. 我们将在本教程的后面介绍这一点. 
 
 现在, 用以下方式启动应用程序 :
 
@@ -339,7 +339,7 @@ public Multi<String> greetingsAsStream(int count, String name) {
 
 与前面的代码片段唯一不同的是`@Produces`的类型和 `@RestSseElementType` 注解代表的每个事件的类型. 由于 `@Produces` 注解定义了 `SERVER_SENT_EVENTS`, JAX-RS 需要它来知道每个 (嵌套)事件的内容类型. 
 
-> 你可能需要添加 import org.jboss.resteasy.reactive.RestSseElementType; 语句. 
+> 你可能需要添加 `import org.jboss.resteasy.reactive.RestSseElementType`; 语句. 
 
 你可以通过以下方式看到结果 :
 
@@ -356,11 +356,11 @@ data: hello neo - 3
 data: hello neo - 4
 ```
 
-## 使用反应型API
+## 使用响应式API
 
-### 使用Quarkus反应型API
+### 使用Quarkus响应式API
 
-Quarkus使用Mutiny模型提供了许多响应式API. 在这一节中, 我们将看到你如何使用`Reactive PostgreSQL`驱动, 以非阻塞和响应式的方式与你的数据库交互. 
+Quarkus使用Mutiny模型提供了许多响应式API. 在这一节中, 我们将看到如何使用`Reactive PostgreSQL`驱动, 以非阻塞和响应式的方式与你的数据库交互. 
 
 使用创建一个新的项目 :
 
